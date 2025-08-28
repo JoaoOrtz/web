@@ -1,10 +1,4 @@
-import Image from "next/image";
-import ToastDemo from "./componets/ToastDemo";
-
-export default function Home() {
-  return (
-    <main>
-      <ToastDemo />
-    </main>
-  );
+import Home from "@/features/landing/Home/Home";
+export default function page() {
+  return <Home />;
 }
